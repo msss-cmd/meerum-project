@@ -1,0 +1,5 @@
+{
+  "name": "ScholarSync - Research Analyzer",
+  "description": "A comprehensive research tool that extracts text from PDF papers, generates structured summaries, evaluates summary faithfulness, and discovers similar academic papers using AI.",
+  "requestFramePermissions": []
+}
