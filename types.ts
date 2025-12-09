@@ -41,3 +41,22 @@ export interface AnalysisResult {
   similarPapers: SimilarPaper[];
   evaluation: EvaluationData;
 }
+
+// Auth & Admin Types
+export type UserRole = 'admin' | 'user';
+
+export interface User {
+  id: string;
+  username: string;
+  role: UserRole;
+  name: string;
+}
+
+export interface ActivityLog {
+  id: string;
+  userId: string;
+  username: string;
+  timestamp: number;
+  paperTitle: string;
+  actionType: 'ANALYSIS_COMPLETED';
+}
